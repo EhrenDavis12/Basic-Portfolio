@@ -52,9 +52,6 @@ a:link {
   border-color: var(--header_border_color);
   border-style: solid;
   border-bottom-width: 5px;
-
-  /* width: var(--work_space_width);
-  margin: auto; */
 }
 
 .name_box{
