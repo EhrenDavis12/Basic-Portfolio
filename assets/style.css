@@ -30,6 +30,7 @@ input {
 }
 
 footer{
+  color: var(--header_bkg_color);
   background-color: var(--footer_bkg_color); 
   border-color: var(--main_color); 
   border-style: solid;
@@ -40,6 +41,10 @@ footer{
   margin-top: 100px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .header_bar{
   height: 80px;
   text-align: center;
@@ -47,9 +52,6 @@ footer{
   border-color: var(--header_border_color);
   border-style: solid;
   border-bottom-width: 5px;
-
-  /* width: var(--work_space_width);
-  margin: auto; */
 }
 
 .name_box{
