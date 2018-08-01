@@ -30,6 +30,7 @@ input {
 }
 
 footer{
+  color: var(--header_bkg_color);
   background-color: var(--footer_bkg_color); 
   border-color: var(--main_color); 
   border-style: solid;
@@ -69,6 +70,10 @@ footer{
   color: var(--font_color);
   margin-left: 775px;
   margin-top: 30px;
+}
+
+.menu_item{
+  text-decoration: none;
 }
 
 .work_space{
