@@ -18,7 +18,8 @@
   }
 
 body{
-  background-image: url('/assets/sandpaper.png')
+  background-image: url('/assets/sandpaper.png');
+  margin: 0px;
 }
 
 img{
@@ -59,11 +60,16 @@ a:active {
 
 .header_bar{
   height: 80px;
+  background-color: var(--header_bkg_color);
+  border-bottom: 5px solid var(--header_border_color);
+}
+
+.header_bar_hidden{
+  height: 80px;
+  margin: auto;
   text-align: center;
   background-color: var(--header_bkg_color);
-  border-color: var(--header_border_color);
-  border-style: solid;
-  border-bottom-width: 5px;
+  width: var(--work_space_width);
 }
 
 .name_box{
@@ -71,7 +77,6 @@ a:active {
   font-family: var(--header_fonts);
   color: var(--header_bkg_color);
   float: left;
-  margin-left: 300px;
   margin-top: 0%;
   padding: 10px;
   padding-top: 22px;
@@ -82,7 +87,7 @@ a:active {
   font-family: var(--other_fonts);
   color: var(--font_color);
   margin-left: 775px;
-  margin-top: 30px;
+  padding-top: 50px;
 }
 
 .work_space{
