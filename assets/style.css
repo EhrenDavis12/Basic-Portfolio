@@ -22,10 +22,6 @@ body{
   margin: 0px;
 }
 
-img{
-  z-index: -1;
-}
-
 input {
   width: 100%;
 }
@@ -40,6 +36,12 @@ footer{
   text-align: center;
   padding-top: 40px;
   margin-top: 100px;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
 }
 
 a:link {
@@ -52,6 +54,7 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
+  opacity: 0.5;
 }
 
 a:active {
@@ -99,6 +102,7 @@ a:active {
   border-style: solid;
   border-bottom-width: 5px;
   border-color: var(--content_border_color);
+  margin-bottom: 100px;
 }
 
 .topic{
@@ -146,6 +150,11 @@ a:active {
   float: left;
   height: var(--image_height);
   width: var(--image_width);
+}
+
+.portfolio_img:hover{
+  opacity: 0.5;
+  border-color: var(--main_color); 
 }
 
 .portfolio_text{
